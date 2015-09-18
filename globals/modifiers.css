@@ -124,6 +124,7 @@
 .bold { font-weight: bold;}
 .light {font-weight: lighter;}
 .italic {font-style: italic;}
+.strike { text-decoration: line-through; }
 
 /* Text styles */
 .upcase {text-transform: uppercase;}
