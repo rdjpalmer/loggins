@@ -42,6 +42,7 @@ export default class SharedFormInput extends Component {
   }
 
   handleChange(e) {
+    console.log(e);
     const { onChange, transform } = this.props;
     let { value } = e.target;
     if (transform) {
